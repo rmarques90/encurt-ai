@@ -1,0 +1,1 @@
+export const MAX_LINK_DESCRIPTION_LENGTH = 200

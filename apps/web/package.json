@@ -1,0 +1,9 @@
+{
+  "name": "@encurt-ai/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "test": "vitest run" },
+  "dependencies": { "@vitejs/plugin-vue": "latest", "vite": "latest", "vue": "latest", "vue-router": "latest" },
+  "devDependencies": { "@vue/test-utils": "latest", "jsdom": "^26.1.0", "vitest": "latest" }
+}

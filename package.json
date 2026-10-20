@@ -1,0 +1,17 @@
+{
+  "name": "encurt-ai",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=@encurt-ai/api",
+    "dev:web": "npm run dev --workspace=@encurt-ai/web",
+    "bootstrap-admin": "npm run bootstrap-admin --workspace=@encurt-ai/api --",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
